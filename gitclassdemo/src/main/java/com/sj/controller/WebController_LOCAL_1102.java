@@ -18,20 +18,11 @@ public class WebController {
 		return "Hello world";
 	}
 	
-
 	
 	public String test() {
 		return("Test from local");
 	}
 	 
-
-	//Written by by another devloper
-	@GetMapping("/hi")
-	public String sayHello(){
-
-	    return "Hi world ";
-	}
-
 	
 	
 }
