@@ -18,9 +18,12 @@ public class WebController {
 		return "Hello world";
 	}
 	
-	
-	
-	
+	//Written by by another devloper
+	@GetMapping("/hi")
+	public String sayHello(){
+
+	    return "Hi world ";
+	}
 	
 	
 }
